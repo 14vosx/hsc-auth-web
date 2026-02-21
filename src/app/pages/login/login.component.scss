@@ -1,0 +1,31 @@
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f1115;
+  color: white;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #1f8cff;
+    color: white;
+    cursor: pointer;
+  }
+}
