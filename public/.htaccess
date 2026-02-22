@@ -1,0 +1,7 @@
+# Se for um arquivo ou pasta real, deixa passar
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Caso contrário, manda tudo pro index do Angular
+RewriteRule ^ index.html [L]
